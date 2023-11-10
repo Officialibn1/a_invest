@@ -1,0 +1,29 @@
+/* dashboard cards container styles */
+.dashboardCards {
+	@apply grid grid-cols-2 gap-5 mt-5 xl:grid-cols-4;
+}
+
+/* individual card styles */
+.dashboardCard {
+	@apply p-5 bg-indigo-50 shadow-xl rounded-xl hover:shadow-md duration-200 ease-in-out cursor-pointer hover:bg-indigo-100;
+}
+
+.dashboardCard .cardIcon {
+	@apply flex mb-3;
+}
+
+.dashboardCard .cardIcon svg {
+	@apply text-4xl;
+}
+
+.cardDetails {
+	@apply flex flex-col gap-2;
+}
+
+.cardDetails p {
+	@apply text-2xl font-extralight;
+}
+
+.cardDetails h3 {
+	@apply font-semibold;
+}

@@ -1,11 +1,14 @@
 import React from "react";
-import DashboardCard from "@/app/components/ui/DashboardCard";
+import IncomeCard from "@/app/components/ui/DashboardCard";
 import "@/app/components/styles/DashboardCards.css";
 
 const DashboardCards = () => {
 	return (
 		<div className='dashboardCards'>
-			<DashboardCard />
+			<IncomeCard />
+			<IncomeCard />
+			<IncomeCard />
+			<IncomeCard />
 		</div>
 	);
 };
