@@ -4,7 +4,7 @@ import "@/app/components/styles/ProfileNav.css";
 const ProfileNav = () => {
 	return (
 		<nav className='profileNav'>
-			<p>ProfileNav</p>
+			<div className='profileNavContent'></div>
 		</nav>
 	);
 };

@@ -1,0 +1,38 @@
+/* Dashboard layout styles */
+.dashboardLayout {
+	@apply flex justify-between p-2 gap-3 relative;
+}
+
+/* dashboard homepage styles */
+.dashboardPage {
+	/* @apply outline; */
+	width: calc(100% - 85px);
+}
+
+/* dashboard home page greeting and mobile profile container */
+.dashboardPageNav {
+	@apply flex items-center gap-2 bg-slate-200 rounded-2xl px-3 py-1;
+}
+
+/* Targetting the welcome text */
+.dashboardPageNav span {
+	@apply text-lg font-semibold;
+}
+
+/* Targetting the profile and down button div container */
+.dashboardPageNav > div {
+	@apply flex items-center w-fit ml-auto;
+}
+/* svg down button styles */
+.dashboardPageNav > div .downBtn {
+	@apply text-2xl;
+}
+
+/* Mobile profile picture */
+.profilePic {
+	@apply w-12 h-12 rounded-full;
+}
+
+.profilePic img {
+	@apply w-full h-full rounded-full;
+}

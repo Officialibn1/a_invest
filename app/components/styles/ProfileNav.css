@@ -1,0 +1,16 @@
+/* colors */
+/* bg-indigo-600 */
+/* bg-slate-200 */
+/* text-slate-800 */
+/* text-slate-200 */
+/* bg-green-300 */
+/* bg-red-300 */
+/* rounded-3xl */
+
+/* Border color */
+/* #e2e8f0 */
+
+.profileNav {
+	@apply absolute w-[300px] top-0 -right-[200vw];
+	height: calc(100vh - 60px);
+}
