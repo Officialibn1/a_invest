@@ -1,0 +1,3 @@
+.dashboardLayout {
+	@apply flex justify-between p-2;
+}
