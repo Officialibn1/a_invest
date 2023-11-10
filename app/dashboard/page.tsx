@@ -2,6 +2,7 @@ import "@/app/components/styles/ProfileNav.css";
 import Image from "next/image";
 import React from "react";
 import { BiChevronDown } from "react-icons/bi";
+import DashboardCards from "@/app/components/ui/DashboardCards";
 
 const user_name = "Ibn";
 
@@ -9,7 +10,7 @@ const page = () => {
 	return (
 		<div className='dashboardPage'>
 			<div className='dashboardPageNav'>
-				<span>Welcome back, {user_name}</span>
+				<span>Good Evening, {user_name}</span>
 
 				{/* Mobile view profile */}
 				<div>
@@ -27,6 +28,10 @@ const page = () => {
 						<BiChevronDown />
 					</div>
 				</div>
+			</div>
+
+			<div className='dashboardPageMain'>
+				<DashboardCards />
 			</div>
 		</div>
 	);

@@ -11,17 +11,17 @@
 
 /* dashboard home page greeting and mobile profile container */
 .dashboardPageNav {
-	@apply flex items-center gap-2 bg-slate-200 rounded-2xl px-3 py-1;
+	@apply flex items-center gap-2 bg-indigo-100 rounded-2xl px-3 py-2 lg:py-4;
 }
 
 /* Targetting the welcome text */
 .dashboardPageNav span {
-	@apply text-lg font-semibold;
+	@apply text-lg font-semibold lg:text-3xl;
 }
 
 /* Targetting the profile and down button div container */
 .dashboardPageNav > div {
-	@apply flex items-center w-fit ml-auto;
+	@apply flex items-center w-fit ml-auto lg:hidden;
 }
 /* svg down button styles */
 .dashboardPageNav > div .downBtn {

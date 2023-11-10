@@ -2,7 +2,11 @@ import React from "react";
 import "@/app/components/styles/NavMenu.css";
 import Link from "next/link";
 import { AiOutlineBank, AiOutlineStock } from "react-icons/ai";
-import { IoBarChartOutline, IoHomeOutline } from "react-icons/io5";
+import {
+	IoBarChartOutline,
+	IoHomeOutline,
+	IoNotificationsOutline,
+} from "react-icons/io5";
 import { LiaFileInvoiceDollarSolid } from "react-icons/lia";
 import { TbMessage2Dollar } from "react-icons/tb";
 import { SlSettings } from "react-icons/sl";
@@ -50,6 +54,13 @@ const NavMenu = () => {
 				<li>
 					<Link href={`/dashboard`}>
 						<LiaFileInvoiceDollarSolid />
+					</Link>
+				</li>
+
+				{/* mobile view notifications */}
+				<li className='lg:hidden'>
+					<Link href={`/dashboard`}>
+						<IoNotificationsOutline />
 					</Link>
 				</li>
 

@@ -11,6 +11,51 @@
 /* #e2e8f0 */
 
 .profileNav {
-	@apply absolute w-[300px] top-0 -right-[200vw];
+	@apply hidden w-[300px] top-0 -right-[200vw] lg:block bg-indigo-100 rounded-2xl p-3;
 	height: calc(100vh - 60px);
+}
+
+/* profilenav header styles */
+.profileNavHeader {
+	@apply flex gap-4 justify-end items-center py-1;
+}
+
+.profileNavHeader a {
+	@apply p-2 rounded-xl hover:bg-indigo-200 duration-200 ease-in-out text-xl shadow-xl;
+}
+
+/* Main contents in the profile nav  */
+.profileNavContent {
+	@apply mt-5;
+}
+
+/* entire notifications container styles */
+.notificationsContainer {
+	@apply flex flex-col gap-3 h-[300px] p-3 overflow-y-auto my-3 bg-slate-100 rounded-xl;
+}
+
+/* individual notification styles */
+.notificationContainer {
+	@apply flex gap-2 p-2 rounded-xl shadow-lg items-start bg-indigo-100;
+	@apply hover:bg-indigo-200 duration-200 ease-in-out;
+}
+
+.notificationContainer .textCon {
+	@apply flex flex-col gap-1;
+}
+
+.notificationContainer > div span {
+	@apply ml-auto text-xs font-semibold;
+}
+
+.notificationContainer > div p {
+	@apply text-xs;
+}
+
+.notificationContainer .imgCon {
+	@apply w-16 rounded-full overflow-hidden;
+}
+
+.notificationContainer .imgCon img {
+	@apply w-full h-full;
 }

@@ -26,5 +26,5 @@
 }
 
 body {
-	@apply bg-slate-100 text-slate-800 max-w-[1536px] mx-auto outline;
+	@apply bg-slate-100 text-slate-800 max-w-[1536px] mx-auto;
 }
