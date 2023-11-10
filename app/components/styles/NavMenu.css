@@ -38,6 +38,11 @@
 }
 
 /* targetting the last list item */
+.navMenu ul li:first-child {
+	@apply bg-indigo-500;
+}
+
+/* targetting the last list item */
 .navMenu ul li:last-child {
 	@apply mt-auto;
 }
