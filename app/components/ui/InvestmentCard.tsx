@@ -1,15 +1,15 @@
 import React from "react";
-import { FaCreditCard } from "react-icons/fa6";
+import { FaMoneyBillTrendUp } from "react-icons/fa6";
 
-const IncomeCard = () => {
+const InvestmentCard = () => {
 	return (
 		<div className='dashboardCard'>
 			<div className='cardIcon'>
-				<FaCreditCard />
+				<FaMoneyBillTrendUp />
 			</div>
 
 			<div className='cardDetails'>
-				<h3>Income</h3>
+				<h3>Investments</h3>
 
 				<p>${"123,231,423.00"}</p>
 			</div>
@@ -17,4 +17,4 @@ const IncomeCard = () => {
 	);
 };
 
-export default IncomeCard;
+export default InvestmentCard;

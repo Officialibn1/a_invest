@@ -34,7 +34,7 @@
 }
 
 .navMenu ul li {
-	@apply p-2 rounded-xl shadow-md;
+	@apply p-2 rounded-xl shadow-lg md:hover:shadow-sm;
 }
 
 /* targetting the last list item */
