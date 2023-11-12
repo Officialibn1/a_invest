@@ -1,11 +1,11 @@
 /* Dashboard layout styles */
 .dashboardLayout {
-	@apply flex justify-between p-2 gap-3 relative outline;
+	@apply flex justify-between p-2 gap-3 relative;
 }
 
 /* dashboard homepage styles */
 .dashboardPage {
-	@apply outline relative overflow-y-auto;
+	@apply px-4 relative overflow-y-auto;
 	width: calc(100% - 85px);
 	height: calc(100vh - 30px);
 }

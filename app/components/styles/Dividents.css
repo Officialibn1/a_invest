@@ -1,15 +1,45 @@
 .dividents {
-	@apply outline my-10;
+	@apply my-10;
 }
 
 .dividents > h2 {
 	@apply mb-5;
 }
 
+.dividents > div {
+	@apply flex gap-5 flex-col xl:flex-row xl:gap-0 w-full;
+}
+
 .dividentsCards {
-	@apply p-5 bg-indigo-50 rounded-xl overflow-x-auto;
+	@apply overflow-x-auto p-5 flex-1;
 }
 
 .dividentsCards .dividentChart {
-	@apply w-full outline min-w-[450px];
+	@apply bg-indigo-50 rounded-xl p-3 w-full min-w-[450px] shadow-lg;
 }
+
+/* Information on profits and stocks */
+.dividentInfoCards {
+	@apply grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-12 justify-center py-3 px-6 xl:grid-cols-1 xl:py-5 xl:w-1/4;
+}
+
+.dividentInfoCards .dividentInfoCard {
+	@apply p-3 md:p-6 bg-indigo-50 rounded-xl shadow-xl flex flex-col gap-5 xl:justify-center;
+}
+
+.dividentInfoCards .dividentInfoCard > span {
+	@apply text-lg font-bold xl:text-xl;
+}
+
+.dividentInfoCards .dividentInfoCard > div {
+	@apply flex w-full justify-between items-center;
+}
+
+.dividentInfoCards .dividentInfoCard > div h1 {
+	@apply text-6xl;
+}
+
+.dividentInfoCards .dividentInfoCard > div span {
+	@apply text-xs p-1 bg-green-300 rounded-lg text-green-700;
+}
+/* font-family: 'Space Mono', monospace; */

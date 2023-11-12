@@ -7,11 +7,20 @@ import Dividents from "../components/ui/Dividents";
 
 const user_name = "Ibn";
 
+const currentHour = new Date().getHours();
+
 const page = () => {
 	return (
 		<div className='dashboardPage'>
 			<div className='dashboardPageNav'>
-				<span>Good Evening, {user_name}</span>
+				<span>
+					{currentHour >= 5 && currentHour < 12
+						? "Good Morning"
+						: currentHour >= 12 && currentHour < 17
+						? "Good Afternoon"
+						: "Good Evening"}
+					, {user_name}
+				</span>
 
 				{/* Mobile view profile */}
 				<div>
