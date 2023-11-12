@@ -1,17 +1,19 @@
 /* Dashboard layout styles */
 .dashboardLayout {
-	@apply flex justify-between p-2 gap-3 relative;
+	@apply flex justify-between p-2 gap-3 relative outline;
 }
 
 /* dashboard homepage styles */
 .dashboardPage {
-	/* @apply outline; */
+	@apply outline relative overflow-y-auto;
 	width: calc(100% - 85px);
+	height: calc(100vh - 30px);
 }
 
 /* dashboard home page greeting and mobile profile container */
 .dashboardPageNav {
 	@apply flex items-center gap-2 bg-indigo-100 rounded-2xl px-3 py-2 lg:py-4;
+	/* absolute top-0 left-0 w-full */
 }
 
 /* Targetting the welcome text */

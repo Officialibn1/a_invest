@@ -4,7 +4,7 @@ import { GiPayMoney } from "react-icons/gi";
 const LossCard = () => {
 	return (
 		<div className='dashboardCard'>
-			<div className='cardIcon'>
+			<div className='cardIcon text-red-400'>
 				<GiPayMoney />
 			</div>
 

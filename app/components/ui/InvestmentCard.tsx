@@ -4,7 +4,7 @@ import { FaMoneyBillTrendUp } from "react-icons/fa6";
 const InvestmentCard = () => {
 	return (
 		<div className='dashboardCard'>
-			<div className='cardIcon'>
+			<div className='cardIcon text-blue-400'>
 				<FaMoneyBillTrendUp />
 			</div>
 

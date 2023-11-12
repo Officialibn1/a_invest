@@ -1,12 +1,11 @@
 import React from "react";
-import { FaCreditCard } from "react-icons/fa6";
-import { GrMoney } from "react-icons/gr";
+import { GiMoneyStack } from "react-icons/gi";
 
 const IncomeCard = () => {
 	return (
-		<div className='dashboardCard'>
-			<div className='cardIcon'>
-				<GrMoney />
+		<div className='dashboardCard '>
+			<div className='cardIcon text-yellow-500 text-5xl'>
+				<GiMoneyStack />
 			</div>
 
 			<div className='cardDetails'>

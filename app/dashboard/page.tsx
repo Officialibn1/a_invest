@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { BiChevronDown } from "react-icons/bi";
 import DashboardCards from "@/app/components/ui/DashboardCards";
+import Dividents from "../components/ui/Dividents";
 
 const user_name = "Ibn";
 
@@ -31,7 +32,11 @@ const page = () => {
 			</div>
 
 			<div className='dashboardPageMain'>
+				{/* Dashboard, profits, loss. . . cards */}
 				<DashboardCards />
+
+				{/* Dividents section */}
+				<Dividents />
 			</div>
 		</div>
 	);

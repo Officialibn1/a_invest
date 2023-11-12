@@ -1,6 +1,6 @@
 /* dashboard cards container styles */
 .dashboardCards {
-	@apply grid grid-cols-2 gap-5 mt-5 xl:grid-cols-4;
+	@apply grid grid-cols-1 md:grid-cols-2 gap-5 mt-5 xl:grid-cols-4;
 }
 
 /* individual card styles */

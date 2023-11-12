@@ -4,7 +4,7 @@ import { GiReceiveMoney } from "react-icons/gi";
 const ProfitCard = () => {
 	return (
 		<div className='dashboardCard'>
-			<div className='cardIcon'>
+			<div className='cardIcon text-green-400'>
 				<GiReceiveMoney />
 			</div>
 

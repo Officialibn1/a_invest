@@ -12,7 +12,7 @@
 
 .profileNav {
 	@apply hidden w-[300px] top-0 -right-[200vw] lg:block bg-indigo-100 rounded-2xl p-3;
-	height: calc(100vh - 60px);
+	height: calc(100vh - 30px);
 }
 
 /* profilenav header styles */
