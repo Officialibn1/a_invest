@@ -1,0 +1,68 @@
+.investmentOverview {
+	@apply flex flex-col gap-5 my-5;
+}
+
+.InvestmentOverviewContainer {
+	@apply bg-indigo-50 p-5 rounded-xl flex flex-col gap-10;
+}
+
+.investmentText {
+	@apply grid grid-cols-1 gap-8 md:gap-5 md:grid-cols-3;
+}
+
+.investmentText > div {
+	@apply flex flex-col items-center gap-3;
+}
+
+.investmentText > div h4 {
+	@apply font-semibold text-sm lg:text-base;
+}
+
+.investmentText > div p {
+	@apply text-2xl lg:text-3xl;
+	font-family: "Space Mono", monospace;
+}
+
+.investmentText .invested p {
+	@apply text-blue-500;
+}
+
+.investmentText .earnings p {
+	@apply text-green-500;
+}
+
+.investmentText .withdrawals p {
+	@apply text-red-500;
+}
+
+/* view all link */
+.viewAllIvestment {
+	@apply w-fit mx-auto p-3;
+}
+
+.viewAllIvestment a {
+	@apply bg-indigo-600 p-3 rounded-xl text-slate-200 font-semibold lg:hover:bg-indigo-500 duration-200 ease-in-out;
+}
+
+.investmentWallet {
+	@apply p-5 rounded-xl bg-indigo-100 flex flex-col gap-3 items-center md:w-[595px] mx-auto;
+}
+
+.investmentWallet > h4 {
+	@apply text-lg font-semibold;
+}
+
+.investmentWallet > div {
+	@apply flex gap-1 items-center;
+}
+
+.investmentWallet > div svg {
+	@apply text-xl;
+}
+
+.investmentWallet > div h3 {
+	@apply text-green-500 text-base;
+	font-family: "Space Mono", monospace;
+}
+
+/* font-family: 'Space Mono', monospace; */

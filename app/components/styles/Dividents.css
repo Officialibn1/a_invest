@@ -37,9 +37,9 @@
 
 .dividentInfoCards .dividentInfoCard > div h1 {
 	@apply text-6xl;
+	font-family: "Space Mono", monospace;
 }
 
 .dividentInfoCards .dividentInfoCard > div span {
 	@apply text-xs p-1 bg-green-300 rounded-lg text-green-700;
 }
-/* font-family: 'Space Mono', monospace; */

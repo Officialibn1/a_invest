@@ -22,8 +22,9 @@
 
 .cardDetails p {
 	@apply text-2xl font-extralight;
+	font-family: "Space Mono", monospace;
 }
 
 .cardDetails h3 {
-	@apply font-semibold;
+	@apply font-bold;
 }

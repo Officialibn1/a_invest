@@ -4,6 +4,7 @@ import React from "react";
 import { BiChevronDown } from "react-icons/bi";
 import DashboardCards from "@/app/components/ui/DashboardCards";
 import Dividents from "../components/ui/Dividents";
+import InvestmentOverview from "../components/ui/InvestmentOverview";
 
 const user_name = "Ibn";
 
@@ -46,6 +47,9 @@ const page = () => {
 
 				{/* Dividents section */}
 				<Dividents />
+
+				{/* InvestmentOverview section */}
+				<InvestmentOverview />
 			</div>
 		</div>
 	);
