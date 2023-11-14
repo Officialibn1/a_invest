@@ -1,0 +1,7 @@
+.transactionsPage {
+	@apply w-full;
+}
+
+.transactionsPageTable {
+	@apply overflow-x-auto max-h-[750px] overflow-y-auto p-3 md:p-5 mt-5 bg-indigo-100 rounded-xl;
+}

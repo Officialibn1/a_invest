@@ -52,7 +52,7 @@ const NavMenu = () => {
 
 				{/* Withdrawal */}
 				<li>
-					<Link href={`/dashboard`}>
+					<Link href={`/dashboard/transactions`}>
 						<LiaFileInvoiceDollarSolid />
 					</Link>
 				</li>
