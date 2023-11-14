@@ -5,6 +5,7 @@ import { BiChevronDown } from "react-icons/bi";
 import DashboardCards from "@/app/components/ui/DashboardCards";
 import Dividents from "../components/ui/Dividents";
 import InvestmentOverview from "../components/ui/InvestmentOverview";
+import LatestTransactions from "../components/ui/LatestTransactions";
 
 const user_name = "Ibn";
 
@@ -15,9 +16,8 @@ const page = () => {
 		<div className='dashboardPage'>
 			<div className='dashboardPageNav'>
 				<span>
-					{currentHour >= 5 && currentHour < 12
-						? "Good Morning"
-						: currentHour >= 12 && currentHour < 17
+					{(currentHour >= 5 && currentHour < 12 && "Good Morning") ||
+					(currentHour >= 12 && currentHour < 17)
 						? "Good Afternoon"
 						: "Good Evening"}
 					, {user_name}
@@ -50,6 +50,9 @@ const page = () => {
 
 				{/* InvestmentOverview section */}
 				<InvestmentOverview />
+
+				{/* Latest Transactions table */}
+				<LatestTransactions />
 			</div>
 		</div>
 	);

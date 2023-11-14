@@ -5,7 +5,7 @@
 
 /* dashboard homepage styles */
 .dashboardPage {
-	@apply px-4 relative overflow-y-auto;
+	@apply md:px-4 relative overflow-y-auto;
 	width: calc(100% - 85px);
 	height: calc(100vh - 30px);
 }
