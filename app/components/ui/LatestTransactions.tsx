@@ -36,8 +36,8 @@ const LatestTransactions = () => {
 										<span
 											className={
 												transaction.status === "Wallet Credited"
-													? "bg-green-400 text-green-800"
-													: "bg-red-400 text-red-800"
+													? "bg-green-300 text-green-700"
+													: "bg-red-300 text-red-700"
 											}>
 											{transaction.status}
 										</span>
