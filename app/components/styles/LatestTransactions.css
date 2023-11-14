@@ -4,7 +4,7 @@
 
 /* Div that wraps the transaction table */
 .transactionsTableWrapper {
-	@apply overflow-x-auto h-[380px] overflow-y-auto p-5 mt-5 bg-indigo-100 rounded-xl shadow-xl;
+	@apply overflow-x-auto h-[380px] overflow-y-auto p-3 md:p-5 mt-5 bg-indigo-100 rounded-xl;
 }
 
 .transactionsTable {

@@ -57,12 +57,16 @@
 }
 
 .investmentWallet > div svg {
-	@apply text-xl;
+	@apply text-base md:text-xl;
 }
 
 .investmentWallet > div h3 {
-	@apply text-green-500 text-base;
+	@apply text-green-500 text-xs md:text-base;
 	font-family: "Space Mono", monospace;
+}
+
+.investmentWallet > div span {
+	@apply text-xs md:text-base;
 }
 
 /* font-family: 'Space Mono', monospace; */
