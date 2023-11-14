@@ -6,3 +6,9 @@ export type LatestTransactions = {
 	amount: string;
 	status: string;
 };
+
+export type NavMenuLinks = {
+	url: string;
+	icon: React.ReactNode;
+	name: string;
+};

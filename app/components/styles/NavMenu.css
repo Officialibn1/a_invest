@@ -38,10 +38,14 @@
 }
 
 /* targetting the last list item */
-.navMenu ul li:first-child {
+.activeLink {
 	@apply bg-indigo-500;
 }
 
+/* targetting the second to last list item */
+.navMenu ul li:nth-child(6) {
+	@apply lg:hidden;
+}
 /* targetting the last list item */
 .navMenu ul li:last-child {
 	@apply mt-auto;
