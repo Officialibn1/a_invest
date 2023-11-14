@@ -15,15 +15,8 @@
 	@apply table-auto w-full py-3 border-spacing-y-2 border-separate md:min-w-[1000.23px];
 }
 
-.transactionsTable table thead tr {
-	/* @apply  ; */
-}
 .transactionsTable table thead tr th {
 	@apply py-4 px-2 text-start;
-}
-
-.transactionsTable table tbody {
-	/* @apply  outline; */
 }
 
 .transactionsTable table tbody tr td {
