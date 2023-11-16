@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { IoNotificationsOutline } from "react-icons/io5";
 import { RiMessage3Line } from "react-icons/ri";
+import { notifications } from "@/app/lib/dummyData";
 
 const ProfileNav = () => {
 	return (
@@ -35,55 +36,37 @@ const ProfileNav = () => {
 					<h2>Notifications</h2>
 
 					<div className='notificationsContainer'>
-						{[1, 2, 3, 4, 5, 6, 7].map((m) => (
-							<Link
-								key={m}
-								href={"/"}
+						{notifications.map((n) => (
+							<div
+								key={n._id}
 								className='notificationContainer'>
-								<div className='imgCon'>
-									<Image
-										src={"/ibn_profile.png"}
-										width={100}
-										height={100}
-										quality={90}
-										alt='achme investment user profile'
-									/>
-								</div>
-
 								<div className='textCon'>
-									<p>Lorem ipsum dolor sit adipisicing elit.. .. .</p>
+									<p>{n.desc.slice(0, 45)}. . .</p>
 
-									<span>7:30PM</span>
+									<span>{n.date}</span>
 								</div>
-							</Link>
+							</div>
 						))}
+					</div>
+
+					<div className='viewAll'>
+						<Link href={"/dashboard/notifications"}>View All</Link>
 					</div>
 
 					{/* Latest News */}
-					<h2>Latest News</h2>
+					{/* <h2>Latest News</h2>
 
 					<div className='notificationsContainer'>
-						{[1, 2, 3, 4, 5, 6, 7].map((m) => (
-							<Link
-								key={m}
-								href={"/"}
+						{notifications.map((n) => (
+							<div
+								key={n._id}
 								className='notificationContainer'>
-								<div className='imgCon'>
-									<Image
-										src={"/ibn_profile.png"}
-										width={100}
-										height={100}
-										quality={90}
-										alt='achme investment user profile'
-									/>
-								</div>
-
 								<div className='textCon'>
-									<p>Lorem ipsum dolor sit adipisicing elit.. .. .</p>
+									<p>{n.desc.slice(0, 45)}. . .</p>
 								</div>
-							</Link>
+							</div>
 						))}
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</nav>

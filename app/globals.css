@@ -34,3 +34,12 @@ body {
 	@apply bg-slate-100 text-slate-800 max-w-[1536px] mx-auto;
 	font-family: "Montserrat", sans-serif;
 }
+
+/* utility classes */
+.viewAll {
+	@apply w-full flex items-center py-3;
+}
+
+.viewAll a {
+	@apply bg-indigo-400 text-indigo-800 px-3 py-2 rounded-lg mx-auto lg:hover:bg-indigo-300 ease-in-out duration-200;
+}
