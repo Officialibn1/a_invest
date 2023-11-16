@@ -18,3 +18,10 @@ export type Notifications = {
 	desc: string;
 	date: string;
 };
+
+export type PieData = {
+	label: string;
+	amount: number;
+	backgroundColor: string;
+	borderColor: string;
+};

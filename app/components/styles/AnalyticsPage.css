@@ -1,5 +1,5 @@
 .analyticsPage {
-	@apply w-full h-[85vh] mt-5 overflow-y-auto;
+	@apply w-full h-[85vh] mt-5 overflow-y-auto grid grid-cols-1 md:grid-cols-2 gap-10;
 }
 
 .analyticsPageCard {
@@ -27,5 +27,5 @@
 	@apply w-full mt-3 rounded-xl p-2 bg-[#f1f5f9] overflow-x-auto;
 }
 .analyticsPageCard .analyticsChart > div {
-	@apply min-w-[596px];
+	/* @apply min-w-[596px]; */
 }

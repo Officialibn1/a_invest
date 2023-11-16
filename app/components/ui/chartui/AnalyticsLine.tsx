@@ -97,7 +97,7 @@ export const data = {
 
 const AnalyticsLine = () => {
 	return (
-		<div>
+		<div className=' min-w-[596px]'>
 			<Line
 				options={options}
 				data={data}

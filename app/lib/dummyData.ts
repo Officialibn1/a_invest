@@ -1,4 +1,4 @@
-import { LatestTransactions, Notifications } from "@/typings";
+import { LatestTransactions, Notifications, PieData } from "@/typings";
 
 export const latestTransactions: LatestTransactions[] = [
 	{
@@ -200,4 +200,38 @@ export const dummyStockData: {
 	{ date: "2023-11-10", stock1: 10500.32, stock2: 7500.56, stock3: 8300.65 },
 	{ date: "2023-11-09", stock1: 9200.76, stock2: 8200.21, stock3: 11500.89 },
 	{ date: "2023-11-08", stock1: 11000.12, stock2: 8950.43, stock3: 7800.76 },
+];
+
+// Analytics Page Pie Data
+export const dummyPieData: PieData[] = [
+	{
+		label: "Facebook",
+		amount: 250,
+		backgroundColor: "rgba(59, 89, 152, 0.7)",
+		borderColor: "#3b5998",
+	},
+	{
+		label: "Apple",
+		amount: 200,
+		backgroundColor: "rgba(239, 83, 80, 0.7)",
+		borderColor: "#ef5350",
+	},
+	{
+		label: "Instagram",
+		amount: 150,
+		backgroundColor: "rgba(155, 89, 182, 0.7)",
+		borderColor: "#9b59b6",
+	},
+	{
+		label: "Amazon",
+		amount: 300,
+		backgroundColor: "rgba(255, 193, 7, 0.7)",
+		borderColor: "#ffc107",
+	},
+	{
+		label: "Twitter",
+		amount: 100,
+		backgroundColor: "rgba(29, 161, 242, 0.7)",
+		borderColor: "#1da1f2",
+	},
 ];
