@@ -207,31 +207,65 @@ export const dummyPieData: PieData[] = [
 	{
 		label: "Facebook",
 		amount: 250,
-		backgroundColor: "rgba(59, 89, 152, 0.7)",
+		backgroundColor: "rgba(59, 89, 152, 0.4)",
 		borderColor: "#3b5998",
 	},
 	{
 		label: "Apple",
 		amount: 200,
-		backgroundColor: "rgba(239, 83, 80, 0.7)",
+		backgroundColor: "rgba(239, 83, 80, 0.4)",
 		borderColor: "#ef5350",
 	},
 	{
 		label: "Instagram",
 		amount: 150,
-		backgroundColor: "rgba(155, 89, 182, 0.7)",
+		backgroundColor: "rgba(155, 89, 182, 0.4)",
 		borderColor: "#9b59b6",
 	},
 	{
 		label: "Amazon",
 		amount: 300,
-		backgroundColor: "rgba(255, 193, 7, 0.7)",
+		backgroundColor: "rgba(255, 193, 7, 0.4)",
 		borderColor: "#ffc107",
 	},
 	{
 		label: "Twitter",
 		amount: 100,
-		backgroundColor: "rgba(29, 161, 242, 0.7)",
+		backgroundColor: "rgba(29, 161, 242, 0.4)",
+		borderColor: "#1da1f2",
+	},
+];
+
+// Analytics Page Dounut Data
+export const dummyDounutData: PieData[] = [
+	{
+		label: "Facebook",
+		amount: 125,
+		backgroundColor: "rgba(59, 89, 152, 0.4)",
+		borderColor: "#3b5998",
+	},
+	{
+		label: "Apple",
+		amount: 98,
+		backgroundColor: "rgba(239, 83, 80, 0.4)",
+		borderColor: "#ef5350",
+	},
+	{
+		label: "Instagram",
+		amount: 250,
+		backgroundColor: "rgba(155, 89, 182, 0.4)",
+		borderColor: "#9b59b6",
+	},
+	{
+		label: "Amazon",
+		amount: 40,
+		backgroundColor: "rgba(255, 193, 7, 0.4)",
+		borderColor: "#ffc107",
+	},
+	{
+		label: "Twitter",
+		amount: 320,
+		backgroundColor: "rgba(29, 161, 242, 0.4)",
 		borderColor: "#1da1f2",
 	},
 ];
