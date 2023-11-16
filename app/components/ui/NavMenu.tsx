@@ -27,9 +27,9 @@ const navMenuLinks: NavMenuLinks[] = [
 		name: "Analytics",
 	},
 	{
-		url: "/dashboard/withdraw",
+		url: "/dashboard/withdrawal",
 		icon: <AiOutlineBank />,
-		name: "Investments",
+		name: "Withdraw",
 	},
 	{
 		url: "/dashboard/notifications",

@@ -3,7 +3,7 @@ import "@/app/components/styles/NotificationsPage.css";
 
 const NotificationsPage = () => {
 	return (
-		<div className='notifications'>
+		<div className='dashboardPage'>
 			<div className='dashboardPageNav py-5'>
 				<span>Notifications</span>
 			</div>
