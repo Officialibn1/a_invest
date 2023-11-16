@@ -1,5 +1,16 @@
-/* .notifications {
-	@apply md:px-4 relative overflow-y-auto;
-	width: calc(100% - 100px);
-	height: calc(100vh - 30px);
-} */
+.notificationsPageContainer {
+	@apply h-[75vh] overflow-y-auto bg-indigo-100 rounded-xl mt-5 p-5 flex flex-col gap-4;
+}
+
+.notificationPageCard {
+	@apply bg-indigo-50 rounded-xl p-3 flex gap-2;
+}
+
+/* icon style */
+.notificationPageCard svg {
+	@apply text-2xl text-green-600;
+}
+
+.notificationPageCard span {
+	@apply text-xs font-extralight;
+}

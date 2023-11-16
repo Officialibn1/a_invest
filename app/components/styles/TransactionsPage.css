@@ -1,9 +1,3 @@
-/* .transactionsPage {
-	@apply md:px-4 relative overflow-y-auto;
-	width: calc(100% - 100px);
-	height: calc(100vh - 30px);
-} */
-
 .transactionsPageTable {
 	@apply overflow-x-auto max-h-[750px] overflow-y-auto p-3 md:p-5 mt-5 bg-indigo-100 rounded-xl;
 }
