@@ -42,3 +42,29 @@
 .profilePic img {
 	@apply w-full h-full rounded-full;
 }
+
+/*  */
+/*  */
+/* Loading styles */
+.dashboardLoading {
+	@apply w-full h-[95vh] flex;
+}
+
+.spinnerContainer {
+	@apply w-[100px] h-[100px] flex m-auto;
+}
+
+/* Animation */
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.spinner svg {
+	@apply text-6xl text-indigo-300;
+	animation: spin 150ms cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}

@@ -55,9 +55,18 @@ export const lineData = {
 			label: "Profit",
 			data: profit.map((data) => data.profit),
 			borderColor: "rgb(74, 222, 128)",
-			backgroundColor: "rgb(74, 222, 128)",
+			borderWidth: 1.5,
+			pointBorderWidth: 5,
+			backgroundColor: (context: any) => {
+				const ctx = context.chart.ctx;
+				const gradient = ctx.createLinearGradient(0, 0, 0, 300);
+				gradient.addColorStop(0, "rgba(74, 222, 128, .6)");
+				gradient.addColorStop(1, "rgba(74, 222, 128, .1)");
+				return gradient;
+			},
+			// backgroundColor: "rgb(74, 222, 128)",
 			tension: 0.4,
-			// fill: true,
+			fill: true,
 		},
 		// {
 		// 	label: "Loss",
@@ -80,77 +89,3 @@ const LineChart = () => {
 };
 
 export default LineChart;
-// import { Line } from "react-chartjs-2";
-
-// import { useState, useEffect } from "react";
-
-// const profit = [
-// 	{ day: "Mon", profit: 392781 },
-// 	{ day: "Tue", profit: 392781 },
-// 	{ day: "Wed", profit: 392781 },
-// 	{ day: "Thu", profit: 392781 },
-// 	{ day: "Fri", profit: 392781 },
-// 	{ day: "Sat", profit: 392781 },
-// 	{ day: "Sun", profit: 392781 },
-// ];
-
-// import {
-// 	Chart as ChartJS,
-// 	CategoryScale,
-// 	LinearScale,
-// 	LineElement,
-// 	Title,
-// 	Tooltip,
-// 	Legend,
-// 	ChartConfiguration,
-// } from "chart.js";
-
-// ChartJS.register(
-// 	CategoryScale,
-// 	LinearScale,
-// 	LineElement,
-// 	Title,
-// 	Tooltip,
-// 	Legend,
-// );
-
-// const LineChart = () => {
-// 	const ChartData: ChartConfiguration['data'] = {
-// 		labels: profit.map((label) => label.day),
-// 		datasets: [
-// 			{
-// 				label: "Devedents",
-// 				data: profit.map((data) => data.profit),
-// 				// borderColor: "rgb(79, 70, 229)",
-// 				// backgroundColor: "rgba(78, 70, 229, 0.4)",
-// 			},
-// 		],
-// 	};
-
-// 	const lineOptions = {
-// 		scales: {
-// 			y: {
-// 				beginAtZero: true,
-// 				grid: {
-// 					color: "rgb(79, 70, 229)",
-// 				},
-// 			},
-// 			x: {
-// 				grid: {
-// 					color: "rgb(79, 70, 229)",
-// 				},
-// 			},
-// 		},
-// 	};
-
-// 	return (
-// 		<div>
-// 			<Line
-// 				data={ChartData}
-// 				options={lineOptions}
-// 			/>
-// 		</div>
-// 	);
-// };
-
-// export default LineChart;

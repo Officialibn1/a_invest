@@ -45,7 +45,7 @@
 }
 
 .notificationContainer > div span {
-	@apply ml-auto text-xs font-semibold;
+	@apply ml-auto text-xs font-extralight;
 }
 
 .notificationContainer > div p {
