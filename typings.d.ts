@@ -12,3 +12,9 @@ export type NavMenuLinks = {
 	icon: React.ReactNode;
 	name: string;
 };
+
+export type Notifications = {
+	_id: string;
+	desc: string;
+	date: string;
+};

@@ -18,15 +18,17 @@ const ProfileNav = () => {
 					<IoNotificationsOutline />
 				</Link>
 
-				<div className='profilePic shadow-xl'>
-					<Image
-						src={"/ibn_profile.png"}
-						width={200}
-						height={200}
-						quality={90}
-						alt='achme investment user profile'
-					/>
-				</div>
+				<Link href={"/dashboard/account"}>
+					<div className='profilePic shadow-xl'>
+						<Image
+							src={"/ibn_profile.png"}
+							width={200}
+							height={200}
+							quality={90}
+							alt='achme investment user profile'
+						/>
+					</div>
+				</Link>
 			</div>
 			<div className='profileNavContent'>
 				<div className='notificationsDiv'>

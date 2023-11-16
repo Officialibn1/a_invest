@@ -1,4 +1,4 @@
-import { LatestTransactions } from "@/typings";
+import { LatestTransactions, Notifications } from "@/typings";
 
 export const latestTransactions: LatestTransactions[] = [
 	{
@@ -80,5 +80,108 @@ export const latestTransactions: LatestTransactions[] = [
 		date: "Mon, Nov 13, 2023 5:00 AM",
 		amount: "63,432.02",
 		status: "Wallet Credited",
+	},
+];
+
+export const notifications: Notifications[] = [
+	{
+		_id: "1",
+		desc: "New investment opportunity: Technology Growth Fund now available!",
+		date: "2023-11-16T08:30:00",
+	},
+	{
+		_id: "2",
+		desc: "Gold Investment Plan closed successfully. Check your returns.",
+		date: "2023-11-15T15:45:00",
+	},
+	{
+		_id: "3",
+		desc: "You've purchased the Renewable Energy Portfolio investment plan.",
+		date: "2023-11-14T20:12:00",
+	},
+	{
+		_id: "4",
+		desc: "Exclusive limited-time offer: Real Estate Investment Fund open for investment.",
+		date: "2023-11-13T10:00:00",
+	},
+	{
+		_id: "5",
+		desc: "Congratulations! Your High-Yield Savings Plan has matured.",
+		date: "2023-11-12T18:30:00",
+	},
+	{
+		_id: "6",
+		desc: "New investment alert: Sustainable Agriculture Investment Plan launched!",
+		date: "2023-11-11T12:45:00",
+	},
+	{
+		_id: "7",
+		desc: "Investment update: Energy Sector Diversification Fund now available.",
+		date: "2023-11-10T09:20:00",
+	},
+	{
+		_id: "8",
+		desc: "You've successfully closed the Health and Wellness Investment Plan.",
+		date: "2023-11-09T14:10:00",
+	},
+	{
+		_id: "9",
+		desc: "Explore the new Digital Currency Investment Portfolio.",
+		date: "2023-11-08T11:55:00",
+	},
+	{
+		_id: "10",
+		desc: "Your investment in the Sustainable Technology Fund is performing well.",
+		date: "2023-11-07T17:40:00",
+	},
+	{
+		_id: "11",
+		desc: "Limited slots available for the Real Estate Growth Plan. Invest now!",
+		date: "2023-11-06T13:25:00",
+	},
+	{
+		_id: "12",
+		desc: "Congratulations! Your Balanced Investment Portfolio has reached a milestone.",
+		date: "2023-11-05T16:15:00",
+	},
+	{
+		_id: "13",
+		desc: "New investment opportunity: Global Emerging Markets Fund now open.",
+		date: "2023-11-04T10:45:00",
+	},
+	{
+		_id: "14",
+		desc: "You've successfully closed the ESG Investment Plan. Check your returns.",
+		date: "2023-11-03T19:30:00",
+	},
+	{
+		_id: "15",
+		desc: "Investment alert: High-Performance Technology Stocks Portfolio available.",
+		date: "2023-11-02T08:50:00",
+	},
+	{
+		_id: "16",
+		desc: "Explore the latest Cryptocurrency Investment Options.",
+		date: "2023-11-01T14:20:00",
+	},
+	{
+		_id: "17",
+		desc: "Your investment in the Sustainable Infrastructure Fund is thriving.",
+		date: "2023-10-31T12:10:00",
+	},
+	{
+		_id: "18",
+		desc: "New investment plan: AI and Robotics Innovation Fund now accepting investments.",
+		date: "2023-10-30T16:45:00",
+	},
+	{
+		_id: "19",
+		desc: "Congratulations! Your Green Energy Investment has contributed to a sustainable future.",
+		date: "2023-10-29T11:30:00",
+	},
+	{
+		_id: "20",
+		desc: "Investment update: Financial Sector Stability Fund now available for investment.",
+		date: "2023-10-28T18:15:00",
 	},
 ];
