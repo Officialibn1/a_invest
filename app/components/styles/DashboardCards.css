@@ -21,7 +21,7 @@
 }
 
 .cardDetails p {
-	@apply text-2xl font-extralight;
+	@apply text-xl font-extralight;
 	font-family: "Space Mono", monospace;
 }
 

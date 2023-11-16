@@ -1,0 +1,5 @@
+.notifications {
+	@apply md:px-4 relative overflow-y-auto;
+	width: calc(100% - 100px);
+	height: calc(100vh - 30px);
+}

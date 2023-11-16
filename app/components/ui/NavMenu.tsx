@@ -57,7 +57,7 @@ const NavMenu = () => {
 	const pathName = usePathname();
 	return (
 		<nav className='navMenu'>
-			<Link href={"/dashboard"}>
+			<Link href={"/"}>
 				<div className='navLogo'>
 					<AiOutlineStock />
 					<h5>A-Invest</h5>
@@ -69,7 +69,10 @@ const NavMenu = () => {
 					<li
 						key={i}
 						className={clsx({ activeLink: pathName === link.url })}>
-						<Link href={link.url}>{link.icon}</Link>
+						<Link href={link.url}>
+							{link.icon}
+							<span className='hidden lg:block'>{link.name}</span>
+						</Link>
 					</li>
 				))}
 			</ul>

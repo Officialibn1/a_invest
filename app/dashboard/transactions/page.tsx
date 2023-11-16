@@ -6,7 +6,7 @@ import "@/app/components/styles/TransactionsPage.css";
 const TransactionsPage = () => {
 	return (
 		<div className='transactionsPage'>
-			<div className='dashboardPageNav'>
+			<div className='dashboardPageNav py-5'>
 				<span>All Transactions</span>
 			</div>
 

@@ -1,7 +1,11 @@
 import Link from "next/link";
 import React from "react";
+import { headers } from "next/headers";
 
-const DashboardNotFound = () => {
+const DashboardNotFound = async () => {
+	const headerList = headers();
+	const host = headerList.get("host");
+	// const data = await getSiteData(host);
 	return (
 		<div className='w-full h-screen flex'>
 			<div className='m-auto w-fit text-center'>
