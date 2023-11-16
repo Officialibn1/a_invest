@@ -16,6 +16,10 @@
 	/* absolute top-0 left-0 w-full */
 }
 
+.dashboardPageNav > svg {
+	@apply text-5xl;
+}
+
 /* Targetting the welcome text */
 .dashboardPageNav span {
 	@apply text-lg font-semibold lg:text-3xl;

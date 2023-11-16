@@ -2,11 +2,13 @@ import { latestTransactions } from "@/app/lib/dummyData";
 import React from "react";
 import "@/app/components/styles/LatestTransactions.css";
 import "@/app/components/styles/TransactionsPage.css";
+import { LiaFileInvoiceDollarSolid } from "react-icons/lia";
 
 const TransactionsPage = () => {
 	return (
 		<div className='dashboardPage'>
 			<div className='dashboardPageNav py-5'>
+				<LiaFileInvoiceDollarSolid />
 				<span>All Transactions</span>
 			</div>
 

@@ -7,6 +7,8 @@ const NotificationsPage = () => {
 	return (
 		<div className='dashboardPage'>
 			<div className='dashboardPageNav py-5'>
+				<HiOutlineBellAlert />
+
 				<span>Notifications</span>
 			</div>
 
@@ -15,7 +17,9 @@ const NotificationsPage = () => {
 					<div
 						key={notification._id}
 						className='notificationPageCard'>
-						<HiOutlineBellAlert />
+						<div className='icon'>
+							<HiOutlineBellAlert />
+						</div>
 
 						<div className='text'>
 							<p>{notification.desc}</p>
