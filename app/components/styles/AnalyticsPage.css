@@ -1,5 +1,31 @@
-/* .analyticsPage {
-	@apply md:px-4 relative overflow-y-auto;
-	width: calc(100% - 100px);
-	height: calc(100vh - 30px);
-} */
+.analyticsPage {
+	@apply w-full h-[85vh] mt-5 overflow-y-auto;
+}
+
+.analyticsPageCard {
+	@apply rounded-2xl p-5 bg-indigo-100;
+}
+
+.analyticsPageCard .title {
+	@apply flex justify-between;
+}
+
+.analyticsPageCard .title > div {
+	@apply flex items-center gap-2;
+}
+
+.analyticsPageCard .title > div svg {
+	@apply text-2xl;
+}
+
+.analyticsPageCard .title > div span {
+	@apply text-xs font-extralight;
+	font-family: "Space Mono", monospace;
+}
+
+.analyticsPageCard .analyticsChart {
+	@apply w-full mt-3 rounded-xl p-2 bg-[#f1f5f9] overflow-x-auto;
+}
+.analyticsPageCard .analyticsChart > div {
+	@apply min-w-[596px];
+}

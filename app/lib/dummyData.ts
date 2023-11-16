@@ -185,3 +185,19 @@ export const notifications: Notifications[] = [
 		date: "2023-10-28T18:15:00",
 	},
 ];
+
+export const dummyStockData: {
+	date: string;
+	stock1: number;
+	stock2: number;
+	stock3: number;
+}[] = [
+	{ date: "2023-11-15", stock1: 9345.78, stock2: 7031.24, stock3: 12000.56 },
+	{ date: "2023-11-14", stock1: 8900.45, stock2: 7800.32, stock3: 8500.91 },
+	{ date: "2023-11-13", stock1: 8000.23, stock2: 6500.89, stock3: 11000.77 },
+	{ date: "2023-11-12", stock1: 10000.67, stock2: 7250.12, stock3: 9350.48 },
+	{ date: "2023-11-11", stock1: 8600.91, stock2: 6750.34, stock3: 10800.23 },
+	{ date: "2023-11-10", stock1: 10500.32, stock2: 7500.56, stock3: 8300.65 },
+	{ date: "2023-11-09", stock1: 9200.76, stock2: 8200.21, stock3: 11500.89 },
+	{ date: "2023-11-08", stock1: 11000.12, stock2: 8950.43, stock3: 7800.76 },
+];
