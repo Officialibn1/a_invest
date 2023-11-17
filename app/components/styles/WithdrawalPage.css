@@ -1,0 +1,60 @@
+/* Container wrapping all the withdrawal page contents */
+.withdrawalPage {
+	@apply w-full mt-10;
+}
+
+/* Container wrapping the withdrawal page elements minus the header h2 */
+.withdrawContainer {
+	@apply bg-indigo-100 p-5 rounded-xl mt-5;
+}
+
+/* container wrapping the two divs showing avaliable funds and withdrawable funds */
+.fundsAvailable {
+	@apply grid grid-cols-1 gap-5 md:grid-cols-2;
+}
+
+/* both containers inside the funds available wrapper */
+.fundsAvailable > div {
+	@apply bg-indigo-50 p-3 rounded-xl;
+}
+
+/* the p tag inside the container above */
+.fundsAvailable > div > p {
+	font-family: "Space Mono", monospace;
+}
+
+/* the p tag of the first div inside the container above */
+.fundsAvailable > div:first-child > p {
+	@apply text-indigo-400;
+}
+
+/* the p tag of the second div inside the container above */
+.fundsAvailable > div:last-child > p {
+	@apply text-green-400;
+}
+
+/* the form inside the withdraw container */
+.withdrawContainer form {
+	@apply mt-10 flex flex-col gap-3 w-full lg:w-2/3;
+}
+
+/* the div wrapping each input group inside the form element */
+.withdrawContainer form > div {
+	@apply flex flex-col gap-2;
+}
+
+/* the label inside the input group wrapper */
+.withdrawContainer form > div label {
+	@apply font-semibold text-sm;
+}
+
+/* the inputs and select elemrnts inside the form group */
+.withdrawContainer form > div input,
+select {
+	@apply outline-none px-1 py-2 rounded-lg bg-indigo-50;
+}
+
+/* Input of type submit */
+.withdrawContainer form > div > input[type="button"] {
+	@apply bg-indigo-400 text-indigo-800 mt-10 lg:hover:bg-indigo-300 duration-200 ease-in-out cursor-pointer;
+}

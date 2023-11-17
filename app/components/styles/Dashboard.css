@@ -5,8 +5,7 @@
 
 /* dashboard homepage styles */
 .dashboardPage {
-	@apply md:px-4 relative overflow-y-auto;
-	/* width: calc(100% - 100px); */
+	@apply md:px-4 relative overflow-y-auto grow;
 	height: calc(100vh - 30px);
 
 	@media (min-width: 768px) {

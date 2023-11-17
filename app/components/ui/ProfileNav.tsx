@@ -11,11 +11,11 @@ const ProfileNav = () => {
 		<nav className='profileNav'>
 			<div className='profileNavHeader'>
 				{/* largescreen Notifications icon */}
-				<Link href={"/"}>
+				<Link href={"/dashboard/transactions"}>
 					<RiMessage3Line />
 				</Link>
 
-				<Link href={"/"}>
+				<Link href={"/dashboard/notifications"}>
 					<IoNotificationsOutline />
 				</Link>
 
