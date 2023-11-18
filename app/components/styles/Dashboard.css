@@ -25,7 +25,7 @@
 
 /* Targetting the welcome text */
 .dashboardPageNav span {
-	@apply text-lg font-semibold lg:text-3xl;
+	@apply text-2xl font-semibold lg:text-3xl;
 }
 
 /* Targetting the profile and down button div container */

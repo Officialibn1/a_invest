@@ -1,0 +1,57 @@
+.accountPage {
+	@apply grid grid-cols-1 gap-y-5 lg:gap-y-0 lg:gap-x-5 mt-10 lg:grid-cols-3;
+}
+
+.accountProfile {
+	@apply bg-indigo-100 rounded-xl flex flex-col items-center lg:h-fit w-full;
+}
+
+.accountProfile header {
+	@apply w-full px-3 py-3 mb-3;
+	border-bottom: 1px solid rgba(129, 141, 248, 0.6);
+}
+
+.accountProfile > div {
+	@apply w-20 h-20 rounded-full mt-10 mb-5;
+}
+
+.accountProfile > div img {
+	@apply w-full h-full rounded-full;
+}
+
+.accountProfile > span {
+	@apply text-xs font-light text-indigo-800 cursor-pointer hover:text-indigo-600 text-center;
+}
+
+.accountProfile > button {
+	@apply px-3 py-2 rounded-lg bg-indigo-400 text-indigo-800 mt-8 mb-5 text-sm;
+}
+
+/* Personal information and onther tags inside it styles */
+.personalInformation {
+	@apply bg-indigo-100 rounded-xl flex flex-col gap-5 col-span-2;
+}
+
+.personalInformation header {
+	@apply w-full px-3 py-3 mb-3;
+	border-bottom: 1px solid rgba(129, 141, 248, 0.6);
+}
+
+.personalInformation form {
+	@apply grid grid-cols-1 md:grid-cols-2 gap-3 p-3 md:p-5;
+}
+
+.personalInformation form > label {
+	@apply flex flex-col gap-1;
+}
+
+.personalInformation form > label input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+	@apply outline-none px-2 py-2 rounded-lg bg-indigo-50 border-indigo-500 focus:ring-indigo-500;
+}
+
+.personalInformation form > button {
+	@apply px-3 py-2 rounded-lg text-indigo-800 duration-200 ease-in-out bg-indigo-400 hover:bg-indigo-300 my-5;
+}

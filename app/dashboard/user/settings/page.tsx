@@ -17,11 +17,11 @@ const SettingsPage = () => {
 			</div>
 
 			<div className='settingsPage'>
-				<h2>Account Settings</h2>
+				<h3>Account Settings</h3>
 
 				<div className='settingsPageContent'>
 					<form onSubmit={(e) => editProfile(e)}>
-						<h2 className='mb-2'>Profile Settings</h2>
+						<h3 className='mb-2'>Profile Settings</h3>
 
 						<p>You can only adjust your profile settings every 30 days</p>
 						<fieldset>
@@ -70,7 +70,7 @@ const SettingsPage = () => {
 							</div>
 						</fieldset>
 
-						<h2 className='mb-2 mt-5'>Notifications Settings</h2>
+						<h3 className='mb-2 mt-5'>Notifications Settings</h3>
 						<p>
 							We&apos;ll always let you know about important changes, but you
 							pick what else you want to hear about.
