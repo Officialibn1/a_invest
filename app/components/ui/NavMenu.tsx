@@ -47,7 +47,7 @@ const navMenuLinks: NavMenuLinks[] = [
 		name: "Mobile Notifications",
 	},
 	{
-		url: "/dashboard/settings",
+		url: "/dashboard/user/settings",
 		icon: <SlSettings />,
 		name: "Settings",
 	},

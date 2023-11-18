@@ -1,10 +1,12 @@
 import React from "react";
+import { HiOutlineUser } from "react-icons/hi2";
 
 const AccountPage = () => {
 	return (
 		<div className='dashboardPage'>
 			<div className='dashboardPageNav py-5'>
-				<span>Your Account</span>
+				<HiOutlineUser />
+				<span>Account</span>
 			</div>
 		</div>
 	);

@@ -19,7 +19,7 @@ const ProfileNav = () => {
 					<IoNotificationsOutline />
 				</Link>
 
-				<Link href={"/dashboard/account"}>
+				<Link href={"/dashboard/user/account"}>
 					<div className='profilePic shadow-xl'>
 						<Image
 							src={"/ibn_profile.png"}

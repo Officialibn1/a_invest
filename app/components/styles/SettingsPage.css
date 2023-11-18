@@ -1,0 +1,11 @@
+.settingsPage {
+	@apply outline mt-10;
+}
+
+.settingsPageContent {
+	@apply mt-5 bg-indigo-100 p-5 rounded-xl;
+}
+
+.settingsPageContent > p {
+	@apply text-xs lg:text-sm;
+}
