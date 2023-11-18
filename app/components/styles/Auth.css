@@ -1,0 +1,60 @@
+.authPage {
+	@apply w-full h-screen flex p-5;
+}
+
+.authContainer {
+	@apply m-auto p-5 bg-indigo-100 rounded-xl shadow-xl min-w-[340px] md:w-1/2 lg:w-[450px];
+}
+
+.authContainer form {
+	@apply flex flex-col w-full gap-5 mt-10;
+}
+
+.authContainer form legend {
+	@apply font-medium;
+}
+
+.authContainer form > label {
+	@apply flex flex-col gap-1;
+}
+
+.authContainer form > label input[type="text"],
+input[type="password"] {
+	@apply outline-none px-2 py-2 rounded-lg bg-indigo-50 border-indigo-500 focus:ring-indigo-500;
+}
+
+.authContainer form > label span {
+	@apply text-sm;
+}
+
+.authContainer form .forgot {
+	@apply flex items-center justify-between;
+}
+
+.authContainer form .forgot label {
+	@apply flex gap-1 items-center;
+}
+
+.authContainer form .forgot label input[type="checkbox"] {
+	@apply h-4 w-4 rounded-md border-indigo-500 text-indigo-500 focus:ring-indigo-500;
+}
+
+.authContainer form .forgot label span {
+	@apply text-sm;
+}
+
+.authContainer form .forgot p {
+	@apply text-xs;
+}
+
+.authContainer form button {
+	@apply bg-indigo-400 text-indigo-800 rounded-lg px-3 py-2 mt-5 md:hover:bg-indigo-300 duration-200 ease-in-out;
+}
+
+.authContainer form .noOrHaveAccount {
+	@apply flex justify-end;
+}
+
+.authContainer form .noOrHaveAccount a {
+	@apply text-sm;
+}
