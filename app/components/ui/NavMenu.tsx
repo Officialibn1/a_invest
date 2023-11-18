@@ -41,11 +41,11 @@ const navMenuLinks: NavMenuLinks[] = [
 		icon: <LiaFileInvoiceDollarSolid />,
 		name: "Transactions",
 	},
-	{
-		url: "/dashboard/messages",
-		icon: <IoNotificationsOutline />,
-		name: "Mobile Notifications",
-	},
+	// {
+	// 	url: "/dashboard/messages",
+	// 	icon: <IoNotificationsOutline />,
+	// 	name: "Mobile Notifications",
+	// },
 	{
 		url: "/dashboard/user/settings",
 		icon: <SlSettings />,

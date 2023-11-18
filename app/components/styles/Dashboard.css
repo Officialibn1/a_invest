@@ -23,7 +23,12 @@
 	@apply text-5xl;
 }
 
-/* Targetting the welcome text */
+/* Targetting the welcome text for the dashboard page */
+.dashboardPageNav p {
+	@apply text-xl font-semibold lg:text-3xl;
+}
+
+/* Targetting the title text for other pages */
 .dashboardPageNav span {
 	@apply text-2xl font-semibold lg:text-3xl;
 }

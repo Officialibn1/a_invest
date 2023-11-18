@@ -6,6 +6,7 @@ import DashboardCards from "@/app/components/ui/DashboardCards";
 import Dividents from "../components/ui/Dividents";
 import InvestmentOverview from "../components/ui/InvestmentOverview";
 import LatestTransactions from "../components/ui/LatestTransactions";
+import Link from "next/link";
 
 const user_name = "Ibn";
 
@@ -15,24 +16,26 @@ const page = () => {
 	return (
 		<div className='dashboardPage'>
 			<div className='dashboardPageNav'>
-				<span>
+				<p>
 					{(currentHour >= 5 && currentHour < 12 && "Good Morning") ||
 					(currentHour >= 12 && currentHour < 17)
 						? "Good Afternoon"
 						: "Good Evening"}
 					, {user_name}
-				</span>
+				</p>
 
 				{/* Mobile view profile */}
 				<div>
 					<div className='profilePic'>
-						<Image
-							src={"/ibn_profile.png"}
-							width={200}
-							height={200}
-							quality={90}
-							alt='achme investment user profile'
-						/>
+						<Link href={"/dashboard/user/account"}>
+							<Image
+								src={"/ibn_profile.png"}
+								width={200}
+								height={200}
+								quality={90}
+								alt='achme investment user profile'
+							/>
+						</Link>
 					</div>
 
 					<div className='downBtn'>
