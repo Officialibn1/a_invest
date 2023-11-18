@@ -51,7 +51,7 @@
 /* the inputs and select elemrnts inside the form group */
 .withdrawContainer form > div input,
 select {
-	@apply outline-none px-1 py-2 rounded-lg bg-indigo-50;
+	@apply outline-none px-1 py-2 rounded-lg bg-indigo-50 border-indigo-500 focus:ring-indigo-500;
 }
 
 /* Input of type submit */
