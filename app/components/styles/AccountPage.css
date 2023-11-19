@@ -24,7 +24,7 @@
 }
 
 .accountProfile > button {
-	@apply px-3 py-2 rounded-lg bg-indigo-400 text-indigo-800 mt-8 mb-5 text-sm;
+	@apply px-3 py-2 rounded-lg text-indigo-800 mt-8 mb-5 text-sm duration-200 ease-in-out bg-indigo-400 hover:bg-indigo-300;
 }
 
 /* Personal information and onther tags inside it styles */
@@ -53,5 +53,5 @@ input[type="date"] {
 }
 
 .personalInformation form > button {
-	@apply px-3 py-2 rounded-lg text-indigo-800 duration-200 ease-in-out bg-indigo-400 hover:bg-indigo-300 my-5;
+	@apply px-3 py-2 rounded-lg text-indigo-800 duration-200 ease-in-out bg-indigo-400 hover:bg-indigo-300 my-5 md:col-span-2;
 }

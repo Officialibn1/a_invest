@@ -3,7 +3,7 @@
 }
 
 .authContainer {
-	@apply m-auto p-5 bg-indigo-100 rounded-xl shadow-xl min-w-[340px] md:w-1/2 lg:w-[450px];
+	@apply m-auto p-5 bg-indigo-100 rounded-xl shadow-xl min-w-[340px] md:w-[450px];
 }
 
 .authContainer form {
@@ -24,6 +24,25 @@ input[type="password"] {
 }
 
 .authContainer form > label span {
+	@apply text-sm;
+}
+
+/* for the signup page */
+.authContainer form > .signUpGrid {
+	@apply grid grid-cols-2 gap-5;
+}
+
+.authContainer form > .signUpGrid label {
+	@apply flex flex-col gap-1;
+}
+
+.authContainer form > .signUpGrid label input[type="text"],
+input[type="password"],
+input[type="email"] {
+	@apply outline-none px-2 py-2 rounded-lg bg-indigo-50 border-indigo-500 focus:ring-indigo-500;
+}
+
+.authContainer form > .signUpGrid label span {
 	@apply text-sm;
 }
 
